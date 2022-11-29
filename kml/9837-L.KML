@@ -1,0 +1,333 @@
+Global
+	Title    "HP 9837H Landscape"
+	Author   "Olivier De Smet"
+	Hardware "Chipmunk"
+	Model    37          	 # for 9837
+	Rom      "Rom40.bin"
+	Bitmap   "9837-L.bmp"
+	Debug    0
+End
+
+Background
+	Offset   0   0          
+	Size   1088 768
+End
+
+Lcd
+	Zoom 1
+	Offset  0 0            # alpha offset
+	Color  0   0 0 0				 # character color table
+	Color  1   255 255 255
+	Color  2   160 160 160
+	Color  3   255 255 255
+	Color  4   0   0   0
+	Color  5   0 255 0
+	Color  6   0 128 0
+	Color  7   0 255 0
+	Color  8   0   0   0
+	Color  9   192 192 192
+	Color 10   96  96  96
+	Color 11   192 192 192
+	Color 12   0   0   0
+	Color 13   0 192   0
+	Color 14   0 128   0
+	Color 15   0 192   0
+	Color 16   0 128   0
+	Color 17   0 120   0
+	Color 18   0 112   0
+	Color 19   0 104   0
+	Color 20   0  96   0
+	Color 21   0  88   0
+	Color 22   0  80   0
+	Color 23   0  72   0
+	Color 24   0  64   0
+	Color 25   0  56   0
+	Color 26   0  48   0
+	Color 27   0  40   0
+	Color 28   0  32   0
+	Color 29   0  24   0
+	Color 30   0  16   0
+	Color 31   0   8   0
+	Color 32   0   0   0	# background color table
+	Color 33   0   0   0
+	Color 34   0   0   0
+	Color 35   0   0   0
+	Color 36   0   0   0
+	Color 37   0   0   0
+	Color 38   0   0   0
+	Color 39   0   0   0
+	Color 40   0   0   0
+	Color 41   0   0   0
+	Color 42   0   0   0
+	Color 43   0   0   0
+	Color 44   0   0   0
+	Color 45   0   0   0
+	Color 46   0   0   0
+	Color 47   0   0   0
+	Color 48   0   0   0
+	Color 49   0   0   0
+	Color 50   0   0   0
+	Color 51   0   0   0
+	Color 52   0   0   0
+	Color 53   0   0   0
+	Color 54   0   0   0
+	Color 55   0   0   0
+	Color 56   0   0   0
+	Color 57   0   0   0
+	Color 58   0   0   0
+	Color 59   0   0   0
+	Color 60   0   0   0
+	Color 61   0   0   0
+	Color 62   0   0   0
+	Color 63   0  61   0
+End
+
+Annunciator 1				# RUN light
+	Size 17 14
+	Offset 1027 1
+	Down 1091 1
+End
+
+Annunciator 2				# INT present
+	Size 16 14
+	Offset 1028 19
+	Down 1092 19
+End
+
+Annunciator 3				# INT0 activity disk
+	Size 14 14
+	Offset 1028 38
+	Down 1092 38
+End
+
+Annunciator 4				# INT0 disk present
+	Size 30 10
+	Offset 1049 40
+	Down 1113 40
+End
+
+Annunciator 5				# INT1 activity disk
+	Size 14 14
+	Offset 1028 75
+	Down 1092 75
+End
+
+Annunciator 6				# INT1 disk present
+	Size 30 10
+	Offset 1049 77
+	Down 1113 77
+End
+
+Annunciator 7       # HPIB 700 present
+	Size 16 14
+	Offset 1028 111
+	Down 1092 111
+End
+
+Annunciator 8				# D700 activity disk
+	Size 14 14
+	Offset 1028 130
+	Down 1092 130
+End
+
+Annunciator 9				# D700 disk present
+	Size 30 10
+	Offset 1049 132
+	Down 1113 132
+End
+
+Annunciator 10				# D701 activity disk
+	Size 14 14
+	Offset 1028 167
+	Down 1092 167
+End
+
+Annunciator 11				# D701 disk present
+	Size 30 10
+	Offset 1049 169
+	Down 1113 169
+End
+
+Annunciator 12       # HPIB 702 present
+	Size 16 14
+	Offset 1028 203
+	Down  1092 203
+End
+
+Annunciator 13				# D720 activity disk
+	Size 14 14
+	Offset 1028 222
+	Down 1092 222
+End
+
+Annunciator 14				# D720 disk present
+	Size 30 10
+	Offset 1049 224
+	Down 1113 224
+End
+
+Annunciator 15				# D721 activity disk
+	Size 14 14
+	Offset 1028 259
+	Down 1092 259
+End
+
+Annunciator 16				# D721 disk present
+	Size 30 10
+	Offset 1049 261
+	Down 1113 261
+End
+
+Annunciator 17       # HPIB 703 present
+	Size 16 14
+	Offset 1028 295
+	Down  1092 295
+End
+
+Annunciator 18				# H730 activity disk
+	Size 14 14
+	Offset 1028 314
+	Down 1092 314
+End
+
+Annunciator 19				# H730 disk present
+	Size 30 10
+	Offset 1049 316
+	Down 1113 316
+End
+
+Annunciator 20       # HPIB 704 present
+	Size 16 14
+	Offset 1028 350
+	Down  1092 350
+End
+
+Annunciator 21				# H740 activity disk
+	Size 14 14
+	Offset 1028 369
+	Down 1092 369
+End
+
+Annunciator 22				# H740 disk present
+	Size 30 10
+	Offset 1049 371
+	Down 1113 371
+End
+
+Annunciator 25				# led 1
+	Size 5 14
+	Offset 1029 730
+	Down 1093 730
+End
+
+Annunciator 26				# led 2
+	Size 5 14
+	Offset 1036 730
+	Down 1100 730
+End
+
+Annunciator 27				# led 3
+	Size 5 14
+	Offset 1043 730
+	Down 1107 730
+End
+
+Annunciator 28				# led 4
+	Size 5 14
+	Offset 1050 730
+	Down 1114 730
+End
+
+Annunciator 29				# led 5
+	Size 5 14
+	Offset 1057 730
+	Down 1121 730
+End
+
+Annunciator 30				# led 6
+	Size 5 14
+	Offset 1064 730
+	Down 1128 730
+End
+
+Annunciator 31				# led 7
+	Size 5 14
+	Offset 1071 730
+	Down 1135 730
+End
+
+Annunciator 32				# led 8
+	Size 5 14
+	Offset 1078 730
+	Down 1142 730
+End
+
+Button 1						# RESET
+	Type 2
+	Size  44  16
+	Offset 1034 747
+	OutIn 0 1
+End
+
+Button 2						# INT0 disk
+	Type 2
+	Size 36 16
+	Offset 1046 37
+	OutIn 0 1
+End
+
+Button 3						# INT1 disk
+	Type 2
+	Size 36 16
+	Offset 1046 74
+	OutIn 0 1
+End
+
+Button 4						# H700 disk
+	Type 2
+	Size 36 16
+	Offset 1046 129
+	OutIn 0 1
+End
+
+Button 5						# H701 disk
+	Type 2
+	Size 36 16
+	Offset 1046 166
+	OutIn 0 1
+End
+
+Button 6						# H720 disk
+	Type 2
+	Size 36 16
+	Offset 1046 221
+	OutIn 0 1
+End
+
+Button 7						# H721 disk
+	Type 2
+	Size 36 16
+	Offset 1046 258
+	OutIn 0 1
+End
+
+Button 8						# H730 disk
+	Type 2
+	Size 36 16
+	Offset 1046 313
+	OutIn 0 1
+End
+
+Button 9					# H740 disk
+	Type 2
+	Size 36 16
+	Offset 1046 368
+	OutIn 0 1
+End
+
+Button 10					# H750 disk
+	Type 2
+	Size 36 16
+	Offset 1046 423
+	OutIn 0 1
+End

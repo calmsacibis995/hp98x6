@@ -1,0 +1,405 @@
+Global
+	Title    "HP 9836C Landscape"
+	Author   "Olivier De Smet"
+	Hardware "Chipmunk"
+	Model    35          	 # for 9836C
+	Rom      "Rom40.bin"
+	Bitmap   "9836-L.bmp"
+	Debug    0
+End
+
+Background
+	Offset   0   0          
+	Size   1088 780
+End
+
+Lcd
+	Zoom 1
+	Offset  32 15            # alpha offset
+	Color  0   0 0 0				 	# character color table
+	Color  1   255 0 0            # red
+	Color  2   0 255 0            # green
+	Color  3   255 255 0          # yellow
+	Color  4   0 0 255            # blue
+	Color  5   255 0 255          # magenta
+	Color  6   0 255 255          # cyan
+	Color  7   255 255 255        # white
+	Color  8   0   0   0          # color 0 for graphics
+	Color  9   255 0 0            # red
+	Color 10   0 255 0            # green
+	Color 11   255 255 0          # yellow
+	Color 12   0 0 255            # blue
+	Color 13   255 0 255          # magenta
+	Color 14   0 255 255          # cyan
+	Color 15   255 255 255        # white
+	Color 16   0   0   0          # color 1 for graphics
+	Color 17   255 0 0            # red
+	Color 18   0 255 0            # green
+	Color 19   255 255 0          # yellow
+	Color 20   0 0 255            # blue
+	Color 21   255 0 255          # magenta
+	Color 22   0 255 255          # cyan
+	Color 23   255 255 255        # white
+	Color 24   0   0   0          # color 2 for graphics
+	Color 25   255 0 0            # red
+	Color 26   0 255 0            # green
+	Color 27   255 255 0          # yellow
+	Color 28   0 0 255            # blue
+	Color 29   255 0 255          # magenta
+	Color 30   0 255 255          # cyan
+	Color 31   255 255 255        # white
+	Color 32   0   0   0				# color 3 for graphics
+	Color 33   255 0 0            # red
+	Color 34   0 255 0            # green
+	Color 35   255 255 0          # yellow
+	Color 36   0 0 255            # blue
+	Color 37   255 0 255          # magenta
+	Color 38   0 255 255          # cyan
+	Color 39   255 255 255        # white
+	Color 40   0   0   0          # color 4 for graphics
+	Color 41   255 0 0            # red
+	Color 42   0 255 0            # green
+	Color 43   255 255 0          # yellow
+	Color 44   0 0 255            # blue
+	Color 45   255 0 255          # magenta
+	Color 46   0 255 255          # cyan
+	Color 47   255 255 255        # white
+	Color 48   0   0   0          # color 5 for graphics
+	Color 49   255 0 0            # red
+	Color 50   0 255 0            # green
+	Color 51   255 255 0          # yellow
+	Color 52   0 0 255            # blue
+	Color 53   255 0 255          # magenta
+	Color 54   0 255 255          # cyan
+	Color 55   255 255 255        # white
+	Color 56   0   0   0				# color 6 for graphics
+	Color 57   255 0 0            # red
+	Color 58   0 255 0            # green
+	Color 59   255 255 0          # yellow
+	Color 60   0 0 255            # blue
+	Color 61   255 0 255          # magenta
+	Color 62   0 255 255          # cyan
+	Color 63   255 255 255        # white
+	Color 64   0   0   0          # color 7 for graphics
+	Color 65   255 0 0            # red
+	Color 66   0 255 0            # green
+	Color 67   255 255 0          # yellow
+	Color 68   0 0 255            # blue
+	Color 69   255 0 255          # magenta
+	Color 70   0 255 255          # cyan
+	Color 71   255 255 255        # white
+	Color 72   0   0   0          # color 8 for graphics
+	Color 73   255 0 0            # red
+	Color 74   0 255 0            # green
+	Color 75   255 255 0          # yellow
+	Color 76   0 0 255            # blue
+	Color 77   255 0 255          # magenta
+	Color 78   0 255 255          # cyan
+	Color 79   255 255 255        # white
+	Color 80   0   0   0				# color 9 for graphics
+	Color 81   255 0 0            # red
+	Color 82   0 255 0            # green
+	Color 83   255 255 0          # yellow
+	Color 84   0 0 255            # blue
+	Color 85   255 0 255          # magenta
+	Color 86   0 255 255          # cyan
+	Color 87   255 255 255        # white
+	Color 88   0   0   0          # color 10 for graphics
+	Color 89   255 0 0            # red
+	Color 90   0 255 0            # green
+	Color 91   255 255 0          # yellow
+	Color 92   0 0 255            # blue
+	Color 93   255 0 255          # magenta
+	Color 94   0 255 255          # cyan
+	Color 95   255 255 255        # white
+	Color 96   0   0   0          # color 11 for graphics
+	Color 97   255 0 0            # red
+	Color 98   0 255 0            # green
+	Color 99   255 255 0          # yellow
+	Color 100  0 0 255            # blue
+	Color 101  255 0 255          # magenta
+	Color 102  0 255 255          # cyan
+	Color 103  255 255 255        # white
+	Color 104  0   0   0				# color 12 for graphics
+	Color 105  255 0 0            # red
+	Color 106  0 255 0            # green
+	Color 107  255 255 0          # yellow
+	Color 108  0 0 255            # blue
+	Color 109  255 0 255          # magenta
+	Color 110  0 255 255          # cyan
+	Color 111  255 255 255        # white
+	Color 112  0   0   0				# color 13 for graphics
+	Color 113  255 0 0            # red
+	Color 114  0 255 0            # green
+	Color 115  255 255 0          # yellow
+	Color 116  0 0 255            # blue
+	Color 117  255 0 255          # magenta
+	Color 118  0 255 255          # cyan
+	Color 119  255 255 255        # white
+	Color 120  0   0   0          # color 15 for graphics
+	Color 121  255 0 0            # red
+	Color 122  0 255 0            # green
+	Color 123  255 255 0          # yellow
+	Color 124  0 0 255            # blue
+	Color 125  255 0 255          # magenta
+	Color 126  0 255 255          # cyan
+	Color 127  255 255 255        # white
+	Color 128  0   0   0          # color 15 for graphics
+	Color 129  255 0 0            # red
+	Color 130  0 255 0            # green
+	Color 131  255 255 0          # yellow
+	Color 132  0 0 255            # blue
+	Color 133  255 0 255          # magenta
+	Color 134  0 255 255          # cyan
+	Color 135  255 255 255        # white
+End
+
+Annunciator 1				# RUN light
+	Size 17 14
+	Offset 1027 1
+	Down 1091 1
+End
+
+Annunciator 2				# INT present
+	Size 16 14
+	Offset 1028 19
+	Down 1092 19
+End
+
+Annunciator 3				# INT0 activity disk
+	Size 14 14
+	Offset 1028 38
+	Down 1092 38
+End
+
+Annunciator 4				# INT0 disk present
+	Size 30 10
+	Offset 1049 40
+	Down 1113 40
+End
+
+Annunciator 5				# INT1 activity disk
+	Size 14 14
+	Offset 1028 75
+	Down 1092 75
+End
+
+Annunciator 6				# INT1 disk present
+	Size 30 10
+	Offset 1049 77
+	Down 1113 77
+End
+
+Annunciator 7       # HPIB 700 present
+	Size 16 14
+	Offset 1028 111
+	Down 1092 111
+End
+
+Annunciator 8				# D700 activity disk
+	Size 14 14
+	Offset 1028 130
+	Down 1092 130
+End
+
+Annunciator 9				# D700 disk present
+	Size 30 10
+	Offset 1049 132
+	Down 1113 132
+End
+
+Annunciator 10				# D701 activity disk
+	Size 14 14
+	Offset 1028 167
+	Down 1092 167
+End
+
+Annunciator 11				# D701 disk present
+	Size 30 10
+	Offset 1049 169
+	Down 1113 169
+End
+
+Annunciator 12       # HPIB 702 present
+	Size 16 14
+	Offset 1028 203
+	Down  1092 203
+End
+
+Annunciator 13				# D720 activity disk
+	Size 14 14
+	Offset 1028 222
+	Down 1092 222
+End
+
+Annunciator 14				# D720 disk present
+	Size 30 10
+	Offset 1049 224
+	Down 1113 224
+End
+
+Annunciator 15				# D721 activity disk
+	Size 14 14
+	Offset 1028 259
+	Down 1092 259
+End
+
+Annunciator 16				# D721 disk present
+	Size 30 10
+	Offset 1049 261
+	Down 1113 261
+End
+
+Annunciator 17       # HPIB 703 present
+	Size 16 14
+	Offset 1028 295
+	Down  1092 295
+End
+
+Annunciator 18				# H730 activity disk
+	Size 14 14
+	Offset 1028 314
+	Down 1092 314
+End
+
+Annunciator 19				# H730 disk present
+	Size 30 10
+	Offset 1049 316
+	Down 1113 316
+End
+
+Annunciator 20       # HPIB 704 present
+	Size 16 14
+	Offset 1028 350
+	Down  1092 350
+End
+
+Annunciator 21				# H740 activity disk
+	Size 14 14
+	Offset 1028 369
+	Down 1092 369
+End
+
+Annunciator 22				# H740 disk present
+	Size 30 10
+	Offset 1049 371
+	Down 1113 371
+End
+
+Annunciator 25				# led 1
+	Size 5 14
+	Offset 1029 742
+	Down 1093 742
+End
+
+Annunciator 26				# led 2
+	Size 5 14
+	Offset 1036 742
+	Down 1100 742
+End
+
+Annunciator 27				# led 3
+	Size 5 14
+	Offset 1043 742
+	Down 1107 742
+End
+
+Annunciator 28				# led 4
+	Size 5 14
+	Offset 1050 742
+	Down 1114 742
+End
+
+Annunciator 29				# led 5
+	Size 5 14
+	Offset 1057 742
+	Down 1121 742
+End
+
+Annunciator 30				# led 6
+	Size 5 14
+	Offset 1064 742
+	Down 1128 742
+End
+
+Annunciator 31				# led 7
+	Size 5 14
+	Offset 1071 742
+	Down 1135 742
+End
+
+Annunciator 32				# led 8
+	Size 5 14
+	Offset 1078 742
+	Down 1142 742
+End
+
+Button 1						# RESET
+	Type 2
+	Size  44  16
+	Offset 1034 760
+	OutIn 0 1
+End
+
+Button 2						# INT0 disk
+	Type 2
+	Size 36 16
+	Offset 1046 37
+	OutIn 0 1
+End
+
+Button 3						# INT1 disk
+	Type 2
+	Size 36 16
+	Offset 1046 74
+	OutIn 0 1
+End
+
+Button 4						# H700 disk
+	Type 2
+	Size 36 16
+	Offset 1046 129
+	OutIn 0 1
+End
+
+Button 5						# H701 disk
+	Type 2
+	Size 36 16
+	Offset 1046 166
+	OutIn 0 1
+End
+
+Button 6						# H720 disk
+	Type 2
+	Size 36 16
+	Offset 1046 221
+	OutIn 0 1
+End
+
+Button 7						# H721 disk
+	Type 2
+	Size 36 16
+	Offset 1046 258
+	OutIn 0 1
+End
+
+Button 8						# H730 disk
+	Type 2
+	Size 36 16
+	Offset 1046 313
+	OutIn 0 1
+End
+
+Button 9					# H740 disk
+	Type 2
+	Size 36 16
+	Offset 1046 368
+	OutIn 0 1
+End
+
+Button 10					# H750 disk
+	Type 2
+	Size 36 16
+	Offset 1046 423
+	OutIn 0 1
+End
