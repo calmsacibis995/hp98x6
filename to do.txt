@@ -1,0 +1,25 @@
+Hi,
+
+For the future development, I'm open to any sugestion, idea, code improvment,
+...
+
+What I would like to have is a 'virtualized HPIB' bus mapped on bsd sockets (for
+ example) with a hub doing the 3 wires handshake and dealing with inout, in and
+ out parts to be able to have virtual hpib instrument as external programs (disk,
+  printer emulation, plotter, ...)
+
+But first some API should be written, coded, ...
+I think the hpib internal controller should be re-written in this case (perhaps
+using the rather complete TMS9914A data manual from TI) by coding all the state
+machines described in this doc
+
+Other nice project could be coding the hp mmu for U models to be able to run old
+ HPUX when someone put a disk image on the net. The only doc of this mmu are the
+ schematics from Tony Duell
+
+Also mapping the 98626 (serial interface) to a real serial interface of the host
+machine ...
+
+So many things are possible
+
+Olivier
